@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Chambres - Manhattan Motel</title>
+    
+    <!-- Polices Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icônes Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Swiper.js pour le slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Feuille de style personnalisée -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+</head>
+<body> 
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Manhattan Motel</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="presentation.html" class="nav-link">Nos Atouts</a></li>
+                <li class="nav-item"><a href="chambres.html" class="nav-link active">Chambres</a></li>
+                <li class="nav-item">
+                    <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20chambre%20au%20Manhattan%20Motel." 
+                       target="_blank" 
+                       class="nav-button">
+                       Réserver
+                    </a>
+                </li>
+            </ul>
+            <button class="nav-burger" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title-section">
+            <h1>Découvrez Nos Chambres</h1>
+            <p>Des espaces conçus pour votre confort et votre bien-être.</p>
+        </section>
+
+        <section class="rooms-gallery-section">
+            <!-- Slider Swiper -->
+            <div class="swiper rooms-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="assets/img/rooms/c1.jpg" alt="Chambre Standard" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Standard</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Standard." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="assets/img/rooms/c2.jpg" alt="Chambre Confort" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Confort</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Confort." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="assets/img/rooms/c3.jpg" alt="Suite Junior" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Suite Junior</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Suite%20Junior." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                     <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="assets/img/rooms/c4.jpg" alt="Chambre Double" class="room-image">
+                            </div>
+                             <div class="card-content">
+                                <h3>Chambre Double</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Double." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="assets/img/rooms/c5.jpg" alt="Chambre Vue Mer" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Vue Mer</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Vue%20Mer." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0077b6/white?text=Chambre+6" alt="Chambre Familiale" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Familiale</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Familiale." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/023e8a/white?text=Chambre+7" alt="Chambre Deluxe" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Deluxe</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Deluxe." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0096c7/white?text=Chambre+8" alt="Studio Équipé" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Studio Équipé</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Studio%20Équipé." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/48cae4/white?text=Chambre+9" alt="Chambre Simple" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre Simple</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%20Simple." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 10 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/ade8f4/black?text=Chambre+10" alt="Appartement T2" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Appartement T2</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l'Appartement%20T2." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 11 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0077b6/white?text=Chambre+11" alt="Chambre 11" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 11</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2011." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 12 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/023e8a/white?text=Chambre+12" alt="Chambre 12" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 12</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2012." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 13 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0096c7/white?text=Chambre+13" alt="Chambre 13" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 13</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2013." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 14 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/48cae4/white?text=Chambre+14" alt="Chambre 14" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 14</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2014." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 15 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/ade8f4/black?text=Chambre+15" alt="Chambre 15" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 15</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2015." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 16 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0077b6/white?text=Chambre+16" alt="Chambre 16" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 16</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2016." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 17 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/023e8a/white?text=Chambre+17" alt="Chambre 17" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 17</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2017." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 18 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/0096c7/white?text=Chambre+18" alt="Chambre 18" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 18</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2018." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 19 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/48cae4/white?text=Chambre+19" alt="Chambre 19" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 19</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2019." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 20 -->
+                    <div class="swiper-slide">
+                        <div class="room-card">
+                            <div class="room-image-wrapper">
+                                <img src="https://placehold.co/600x400/ade8f4/black?text=Chambre+20" alt="Chambre 20" class="room-image">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chambre 20</h3>
+                                <a href="https://wa.me/237651325780?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20chambre%2020." target="_blank" class="whatsapp-button card-button">
+                                    <i class="bi bi-whatsapp"></i> Réserver
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Boutons de navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>Contactez-nous directement : <strong>(+237) 651 32 57 80</strong></p>
+        <p>&copy; 2025 Manhattan Motel | Tous droits réservés.</p>
+    </footer>
+
+    <!-- Scripts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
+
